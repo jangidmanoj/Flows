@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Experience</fullName>
+    <fields>Job_Title__c</fields>
+    <fields>Company_Name__c</fields>
+    <fields>I_currently_work_here__c</fields>
+    <fields>City__c</fields>
+    <label>Experience</label>
+</CompactLayout>

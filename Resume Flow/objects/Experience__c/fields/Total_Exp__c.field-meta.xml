@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Exp__c</fullName>
+    <externalId>false</externalId>
+    <formula>Text(Starting_Month__c) + &apos; - &apos;+ Text(Starting_Year__c) + &apos; to &apos; + IF( I_currently_work_here__c, &apos;Present&apos;,  Text(End_Month__c) + &apos; - &apos; +  Text(End_Year__c))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Total Exp</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>
